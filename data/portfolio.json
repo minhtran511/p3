@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 2,
+  "site": {
+    "url": "https://minhtq.dev",
+    "logo": {
+      "image": "/assets/images/identity/LogoMTSS.png",
+      "alt": "MTSS Logo"
+    },
+    "navigation": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/research",
+        "label": "Research"
+      },
+      {
+        "href": "/projects",
+        "label": "Projects"
+      },
+      {
+        "href": "/about",
+        "label": "About"
+      }
+    ],
+    "policies": [
+      {
+        "title": "Terms & Conditions",
+        "url": "/terms"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "/privacy"
+      }
+    ]
+  },
+  "profile": {
+    "name": "Minh Tran",
+    "firstName": "Minh",
+    "lastName": "Tran",
+    "title": "Senior Full-Stack Game Engineer",
+    "description": "turning bold ideas into immersive, end-to-end game experiences.",
+    "tagline": "I build 2D & 3D games and real-time interactive systems — and research applied AI.",
+    "roles": [
+      "2D & 3D Games",
+      "Playable Ads",
+      "Real-time Systems",
+      "AI Agents",
+      "AI Research"
+    ],
+    "summary": "With 5+ years of experience in game development, I specialize in creating interactive, high-performance games and building robust backend systems to support them. From gameplay mechanics to scalable server-side architecture, I bring full-stack expertise to deliver smooth, real-time experiences for players across platforms.",
+    "yearsOfExperience": "5+",
+    "email": "minhtq.dev.work@gmail.com",
+    "phone": "(+84) 38 525 1357",
+    "location": "Long Bien, Hanoi, Vietnam",
+    "avatar": "/assets/images/identity/Avatar.jpg",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tqm051101/",
+        "icon": "/assets/images/social/linkedin.svg"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/minl000",
+        "icon": "/assets/images/social/telegram.svg"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discordapp.com/users/kidcry0x",
+        "icon": "/assets/images/social/discord.svg"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/kidcry0x",
+        "icon": "/assets/images/social/github.svg"
+      }
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "level": "Advanced",
+        "certificate": "IELTS 6.5",
+        "year": "2025",
+        "description": "Proficient in technical communication and documentation"
+      },
+      {
+        "name": "Vietnamese",
+        "level": "Native",
+        "certificate": "C2",
+        "year": "2001",
+        "description": "Native language"
+      }
+    ],
+    "cv": {
+      "url": "/assets/pdf/CV_TranQuangMinh_GameDeveloper_en.pdf",
+      "updated": "2026-08-12"
+    },
+    "openToWork": {
+      "enabled": true,
+      "label": "Open to work",
+      "message": "Available for full-time or freelance roles — let's talk.",
+      "roles": ["Game Developer", "Full-Stack Game Engineer", "AI Engineer"],
+      "workTypes": ["Remote", "Hybrid", "Freelance"]
+    }
+  },
+  "engineering": {
+    "title": "Games & interactive systems",
+    "points": [
+      {
+        "title": "2D & 3D game development",
+        "detail": "Slots, casino, hyper-casual and multiplayer games for web, mobile and Telegram."
+      },
+      {
+        "title": "Playable ads",
+        "detail": "Interactive 2D/3D ads and microsites for global ad networks."
+      },
+      {
+        "title": "Real-time systems",
+        "detail": "Multiplayer servers, backend services and hot-update mobile builds."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Playable Ads Showcase – Interactive Ad Collection",
+      "category": "Playable Ads · 2D & 3D",
+      "featured": true,
+      "summary": "Explore a creative collection of interactive ads (playable ads) developed by me. This showcase lets you view and play each ad just like a mini-game.",
+      "details": "Built using modern technologies such as Cocos Creator, Unity, and more, this collection demonstrates my skills in creating immersive and engaging playable ads for next-gen advertising experiences.",
+      "url": "https://playable.minhtq.dev/",
+      "video": "/assets/textures/projects/project2.mp4",
+      "logo": "/assets/images/projects/project-logo2.png",
+      "logoStyle": {
+        "backgroundColor": "#13202F",
+        "border": "0.2px solid #17293E",
+        "boxShadow": "0px 0px 60px 0px #2F6DB54D"
+      },
+      "tech": [
+        "Unity",
+        "PlayCanvas",
+        "Cocos Creator",
+        "PixiJS",
+        "Phaser",
+        "Three.js",
+        "Babylon.js"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Poker Sky - Real-time PvP Poker Game",
+      "category": "Real-time Multiplayer",
+      "featured": true,
+      "summary": "Poker Sky is a real-time multiplayer poker game focused on competitive PvP gameplay. Challenge friends or go head-to-head with global players in intense, skill-based matches.",
+      "details": "Built with Cocos Creator, Colyseus, Bun, Next.js, and TypeScript, Poker Master delivers a fast, responsive experience and is currently expanding with a full-featured tournament system.",
+      "url": "",
+      "video": "/assets/textures/projects/project1.mp4",
+      "logo": "/assets/images/projects/project-logo1.png",
+      "logoStyle": {
+        "backgroundColor": "#2A1816",
+        "border": "0.2px solid #36201D",
+        "boxShadow": "0px 0px 60px 0px #AA3C304D"
+      },
+      "tech": [
+        "TypeScript",
+        "Cocos Creator",
+        "Colyseus",
+        "BunJS",
+        "Next.js"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Slot Game Collection – Reel-Based Entertainment",
+      "category": "Slot & Casino",
+      "featured": true,
+      "summary": "A dynamic collection of slot games designed and developed by me, featuring diverse themes, creative mechanics, and smooth animations for an immersive experience.",
+      "details": "Each slot game showcases unique reel designs, bonus features, and responsive gameplay. Built with Cocos Creator, Unity and PixiJS, this collection highlights my expertise in interactive game logic, animation systems, and performance optimization for mobile and web platforms.",
+      "url": "",
+      "video": "",
+      "logo": "/assets/images/projects/project-logo3.png",
+      "logoStyle": {
+        "backgroundColor": "#60f5a1",
+        "background": "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+        "border": "0.2px solid rgba(208, 213, 221, 1)",
+        "boxShadow": "0px 0px 60px 0px rgba(35, 131, 96, 0.3)"
+      },
+      "tech": [
+        "TypeScript",
+        "PixiJS",
+        "Cocos Creator",
+        "Unity"
+      ]
+    }
+  ],
+  "research": {
+    "headline": "Research around multimodal generative AI, computer vision, and efficient AI on the edge.",
+    "intro": "A compact record of my academic work. Each entry is organized as a dossier with venue, authorship, model framing and abstract.",
+    "primaryThread": "Multimodal generative AI",
+    "threadNote": "My interests span multimodal generative AI and NLP, computer vision and 3D perception, and making models run fast on GPUs and edge devices — alongside graduate studies at VNU and HUST.",
+    "interests": [
+      {
+        "title": "Multimodal Generative AI & NLP",
+        "keywords": [
+          "Multimodal Generative AI",
+          "Natural Language Processing",
+          "Large Language Models"
+        ]
+      },
+      {
+        "title": "Computer Vision & 3D Perception",
+        "keywords": [
+          "Computer Vision",
+          "Point Cloud",
+          "SLAM & Path Planning"
+        ]
+      },
+      {
+        "title": "Efficient & Edge AI",
+        "keywords": [
+          "Edge AI",
+          "GPU Optimization",
+          "On-device Inference"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "id": "r1",
+        "venue": "VNU-IS AI Hackathon",
+        "year": "2024",
+        "title": "AI system to support decision making for stock investors",
+        "authors": [
+          "Minh Tran"
+        ],
+        "type": "Award",
+        "award": "3rd Prize",
+        "keywords": [
+          "Machine Learning",
+          "FinTech",
+          "Decision Support"
+        ],
+        "frame": "\\hat{a}_t = \\arg\\max_{a} \\; \\mathbb{E}\\left[ R \\mid \\mathbf{x}_{market}, \\theta \\right]",
+        "pdf": "",
+        "abstract": "An applied AI system that helps retail stock investors make better-informed decisions by combining market data analysis with machine learning models.",
+        "url": ""
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "e1",
+      "company": "Greedy Game",
+      "position": "Senior Game Developer",
+      "start": "10/2025",
+      "end": "06/2026",
+      "current": false,
+      "workType": "Remote",
+      "location": "Delaware, USA",
+      "website": "https://greedygame.com/",
+      "logo": "/assets/images/company/GG.png",
+      "highlights": [
+        "Led user acquisition and marketing campaigns for mobile games published under Oogway Apps and GreedyGame’s portfolio.",
+        "Designed and optimized creative marketing assets, including interactive playable ads for Android and iOS titles.",
+        "Analyzed and reported campaign performance metrics, providing data-driven insights to improve ROI and engagement.",
+        "Collaborated with cross-functional teams to align marketing strategy with game development and product goals.",
+        "Utilized multiple ad platforms and marketing accounts to maximize user growth and retention."
+      ],
+      "tech": [
+        "Cocos Creator",
+        "Unity",
+        "C#",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "e2",
+      "company": "Freelancer | Outsourcing",
+      "position": "Software Developer",
+      "start": "04/2024",
+      "end": "Present",
+      "current": true,
+      "workType": "Remote",
+      "location": "South Korea",
+      "website": "https://minhtq.dev",
+      "logo": "/assets/images/company/freelancer-logo.png",
+      "highlights": [
+        "Develop Playable Ads 2D, 3D",
+        "Game Development: Slots, Casino, Hyper-casual, Multiplayer Games, NFT game running on Web, Mobile and Telegram",
+        "Build game Android, iOS and Hot Update"
+      ],
+      "tech": [
+        "Cocos Creator",
+        "Unity",
+        "NestJS",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "e3",
+      "company": "Monster Game Studio - ONESOFT., JSC",
+      "position": "Game Developer",
+      "start": "03/2023",
+      "end": "04/2024",
+      "current": false,
+      "workType": "Onsite",
+      "location": "Hanoi, Vietnam",
+      "website": "https://monsterstudio.io/",
+      "logo": "/assets/images/company/monster.jpg",
+      "highlights": [
+        "Develop 2D/3D Playable Ads using Cocos Creator",
+        "Develop games on Facebook Instant Games using Cocos Creator",
+        "Develop mobile games on Android with Cocos Creator",
+        "Migrate existing Unity projects to Cocos Creator"
+      ],
+      "tech": [
+        "Cocos Creator",
+        "Unity",
+        "C#",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "e4",
+      "company": "PixOn Game Studios - FPT Corporation",
+      "position": "Game Developer",
+      "start": "04/2022",
+      "end": "03/2023",
+      "current": false,
+      "workType": "Onsite",
+      "location": "Hanoi, Vietnam",
+      "website": "https://pixon.games/",
+      "logo": "/assets/images/company/adoneltd_logo.jpg",
+      "highlights": [
+        "Develop Playable Ads 2D/3D, Interactive Microsite/Landing page for Website and Ad networks",
+        "Develop tools to optimize time and work quality.",
+        "Collaborate with marketing team to make a plan and build playable scenarios and games."
+      ],
+      "tech": [
+        "Cocos Creator",
+        "Unity",
+        "PlayCanvas",
+        "PixiJS",
+        "Phaser"
+      ]
+    },
+    {
+      "id": "e5",
+      "company": "ABI Game Studio",
+      "position": "Game Developer",
+      "start": "05/2021",
+      "end": "04/2022",
+      "current": false,
+      "workType": "Onsite",
+      "location": "Hanoi, Vietnam",
+      "website": "https://abigames.com.vn/",
+      "logo": "/assets/images/company/ABI.webp",
+      "highlights": [
+        "Develop games on Facebook Instant Games, Mobile Web platforms using PlayCanvas, Cocos Creator.",
+        "Making Playable Ads for games and ad networks."
+      ],
+      "tech": [
+        "PlayCanvas",
+        "Cocos Creator",
+        "Unity",
+        "C#",
+        "TypeScript"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "ed1",
+      "institution": "Hanoi University of Science and Technology (HUST)",
+      "degree": "Engineering",
+      "field": "Computer Science (Generative Artificial Intelligence)",
+      "start": "08/2019",
+      "end": "04/2024",
+      "notes": [
+        "CPA 3.78/4.0"
+      ],
+      "logo": "/assets/images/identity/LogoHust.png",
+      "website": "https://hust.edu.vn"
+    },
+    {
+      "id": "ed2",
+      "institution": "Vietnam National University, Hanoi - University of Engineering and Technology (VNU-UET)",
+      "degree": "Master of Science",
+      "field": "Informatics and Computer Engineering",
+      "start": "05/2024",
+      "end": "05/2026",
+      "notes": [
+        "CPA: 3.86 (Top 1% of cohort)",
+        "3rd prize - VNU-IS AI HACKATHON 2024"
+      ],
+      "logo": "/assets/images/identity/LogoVNU.jpg",
+      "website": "https://vnu.edu.vn"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate Game Programming with Unity",
+      "issuer": "Code Gym, Zitga, The American Center in Hanoi",
+      "year": "2021",
+      "description": "",
+      "url": "https://drive.google.com/file/d/1G_9WQ1zeFRcKR_nT3G4V60ZuQbH2BdD0/view",
+      "badge": "/assets/images/cert/USA.png"
+    },
+    {
+      "name": "JavaScript (Intermediate)",
+      "issuer": "HackerRank",
+      "year": "2023",
+      "description": "ID: A0656AC9A65D",
+      "url": "https://www.hackerrank.com/certificates/a0656ac9a65d",
+      "badge": "/assets/images/cert/HKR.png"
+    },
+    {
+      "name": "JavaScript (Basic)",
+      "issuer": "HackerRank",
+      "year": "2023",
+      "description": "ID: 3D67E1859A11",
+      "url": "https://www.hackerrank.com/certificates/3d67e1859a11",
+      "badge": "/assets/images/cert/HKR.png"
+    },
+    {
+      "name": "C# (Basic)",
+      "issuer": "HackerRank",
+      "year": "2023",
+      "description": "ID: A0656AC9A65D",
+      "url": "https://www.hackerrank.com/certificates/a0656ac9a65d",
+      "badge": "/assets/images/cert/HKR.png"
+    },
+    {
+      "name": "Code for Everyone",
+      "issuer": "MindX Technology School",
+      "year": "2023",
+      "description": "",
+      "url": "https://drive.google.com/file/d/1tqIsmWNcNrxutK9AeFcDafDqEzEb9YUX/view",
+      "badge": "/assets/images/cert/mindxtechnologyschool_logo.jpg"
+    },
+    {
+      "name": "Code Intensive",
+      "issuer": "MindX Technology School",
+      "year": "2023",
+      "description": "",
+      "url": "https://drive.google.com/file/d/1ezewfW7m8a1ePMNSIjPsBIdxhZ_87LvD/view",
+      "badge": "/assets/images/cert/mindxtechnologyschool_logo.jpg"
+    },
+    {
+      "name": "Fullstack Web",
+      "issuer": "MindX Technology School",
+      "year": "2023",
+      "description": "",
+      "url": "https://drive.google.com/file/d/17bfzD3jr9d-biNOEdov-zwVed_Hl_YRQ/view",
+      "badge": "/assets/images/cert/mindxtechnologyschool_logo.jpg"
+    }
+  ],
+  "stackGroups": [
+    {
+      "key": "engines",
+      "label": "Game Engines"
+    },
+    {
+      "key": "graphics",
+      "label": "Frontend & Graphics"
+    },
+    {
+      "key": "languages",
+      "label": "Programming Languages"
+    },
+    {
+      "key": "backend",
+      "label": "Backend"
+    },
+    {
+      "key": "data",
+      "label": "Databases, Caching & Messaging"
+    },
+    {
+      "key": "ai",
+      "label": "AI/ML & Neural Networks"
+    },
+    {
+      "key": "tools",
+      "label": "Software"
+    }
+  ],
+  "tech": {
+    "TypeScript": {
+      "logo": "/assets/images/tech/TypeScript.svg",
+      "website": "https://typescriptlang.org",
+      "stack": "languages"
+    },
+    "C#": {
+      "logo": "/assets/images/tech/CSharp.svg",
+      "website": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "stack": "languages"
+    },
+    "C/C++": {
+      "logo": "/assets/images/tech/Cpp.svg",
+      "website": "",
+      "stack": "languages"
+    },
+    "Python": {
+      "logo": "/assets/images/tech/Python.svg",
+      "website": "https://www.python.org/",
+      "stack": "languages"
+    },
+    "Golang": {
+      "logo": "/assets/images/tech/Go.svg",
+      "website": "https://go.dev/",
+      "stack": "languages"
+    },
+    "Next.js": {
+      "logo": "/assets/images/tech/Nextjs.svg",
+      "website": "https://nextjs.org",
+      "stack": "graphics"
+    },
+    "Angular": {
+      "logo": "/assets/images/tech/Angular.svg",
+      "website": "https://angular.dev",
+      "stack": "graphics"
+    },
+    "NestJS": {
+      "logo": "/assets/images/tech/nestjs.svg",
+      "website": "https://nestjs.com",
+      "stack": "backend"
+    },
+    "FastAPI": {
+      "logo": "/assets/images/tech/FastAPI.svg",
+      "website": "https://fastapi.tiangolo.com/",
+      "stack": "backend"
+    },
+    ".NET": {
+      "logo": "/assets/images/tech/dotnet.svg",
+      "website": "https://dotnet.microsoft.com/",
+      "stack": "backend"
+    },
+    "Unity": {
+      "logo": "/assets/images/tech/Unity.svg",
+      "website": "https://unity.com",
+      "stack": "engines"
+    },
+    "Cocos Creator": {
+      "logo": "/assets/images/tech/Cocos.png",
+      "website": "https://cocos.com/en",
+      "stack": "engines"
+    },
+    "Unreal Engine": {
+      "logo": "/assets/images/tech/Unreal.svg",
+      "website": "https://unrealengine.com",
+      "stack": "engines"
+    },
+    "PlayCanvas": {
+      "logo": "/assets/images/tech/PlayCanvas.png",
+      "website": "https://playcanvas.com/",
+      "stack": "engines"
+    },
+    "Three.js": {
+      "logo": "/assets/images/tech/Threejs.svg",
+      "website": "https://threejs.org",
+      "stack": "graphics"
+    },
+    "PixiJS": {
+      "logo": "/assets/images/tech/pixi.svg",
+      "website": "https://pixijs.com",
+      "stack": "graphics"
+    },
+    "PostgreSQL": {
+      "logo": "/assets/images/tech/postgresql.svg",
+      "website": "https://postgresql.org",
+      "stack": "data"
+    },
+    "MySQL": {
+      "logo": "/assets/images/tech/MySQL.svg",
+      "website": "https://mysql.com",
+      "stack": "data"
+    },
+    "MongoDB": {
+      "logo": "/assets/images/tech/MongoDB.svg",
+      "website": "https://mongodb.com",
+      "stack": "data"
+    },
+    "Redis": {
+      "logo": "/assets/images/tech/Redis.svg",
+      "website": "https://redis.io",
+      "stack": "data"
+    },
+    "RabbitMQ": {
+      "logo": "/assets/images/tech/RabbitMQ.svg",
+      "website": "https://www.rabbitmq.com/",
+      "stack": "data"
+    },
+    "Kafka": {
+      "logo": "/assets/images/tech/Kafka.svg",
+      "website": "https://kafka.apache.org",
+      "stack": "data"
+    },
+    "PyTorch": {
+      "logo": "/assets/images/tech/Pytorch.svg",
+      "website": "https://pytorch.org",
+      "stack": "ai"
+    },
+    "TensorFlow": {
+      "logo": "/assets/images/tech/Tensorflow.svg",
+      "website": "https://tensorflow.org",
+      "stack": "ai"
+    },
+    "Hugging Face": {
+      "logo": "/assets/images/tech/HF.svg",
+      "website": "https://huggingface.co",
+      "stack": "ai"
+    },
+    "Adobe Illustrator": {
+      "logo": "/assets/images/software/AI.png",
+      "website": "https://adobe.com/products/illustrator",
+      "stack": "tools"
+    },
+    "Adobe Photoshop": {
+      "logo": "/assets/images/software/PTS.png",
+      "website": "https://adobe.com/products/photoshop",
+      "stack": "tools"
+    },
+    "Blender": {
+      "logo": "/assets/images/software/blender-2.svg",
+      "website": "https://blender.org",
+      "stack": "tools"
+    },
+    "Figma": {
+      "logo": "/assets/images/software/Figma.png",
+      "website": "https://figma.com",
+      "stack": "tools"
+    },
+    "Spine": {
+      "logo": "/assets/images/software/spine_badge.png",
+      "website": "https://esotericsoftware.com",
+      "stack": "tools"
+    },
+    "TexturePacker": {
+      "logo": "/assets/images/software/texturepacker-logo.png",
+      "website": "https://codeandweb.com/texturepacker",
+      "stack": "tools"
+    },
+    "Phaser": {
+      "logo": "/assets/images/tech/Phaser.png"
+    },
+    "Babylon.js": {
+      "logo": "/assets/images/tech/Babylonjs.png"
+    },
+    "Colyseus": {
+      "logo": "/assets/images/tech/Colyseus.png"
+    },
+    "BunJS": {
+      "logo": "/assets/images/tech/Bun.svg"
+    }
+  }
+}
